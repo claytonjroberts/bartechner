@@ -1,0 +1,20 @@
+connections:
+    templates:
+        _oracle:                                 'oracle+cx_oracle://{uid}:{pwd}@{server}:{port}/?service_name={service_name}'
+        _postgres:                               'postgresql://{uid}:{pwd}@{server}:{port}/{database}'
+        _mssql:                                  'mssql+pyodbc://{uid}:{pwd}@{server}/{database}?driver={driver}'
+        _mssql_activeDirectoryPassword:          >
+            mssql+pyodbc://{uid}:{pwd}@{server}:{port}/{database}
+            ?
+            Authentication=ActiveDirectoryPassword;
+            DRIVER={driver};
+    sources:
+        MAIN:
+            template:                            _postgres
+            uid:
+            pwd:
+            server:                              localhost
+            port:                                5432
+            database:                            bartech_1
+            schemas:
+                public:

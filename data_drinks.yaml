@@ -1,0 +1,30 @@
+Highball:
+    category:      highball
+    ingredients:
+        whiskey:   1
+        gingerale: 2
+Whiskey and Water:
+    category:      highball
+    ingredients:
+        whiskey:   1
+        water:     2
+Presbyterian:
+    category:      highball
+    ingredients:
+        whiskey:   1
+        gingerale: 1
+        soda:      1
+7 and 7:
+    category:      highball
+    ingredients:
+        Seagram's Seven: 1
+        Seven Up:  2
+Scotch and Soda:
+    category:      highball
+    ingredients:
+        scotch:    1
+        soda :     2
+Dewar's and Soda:
+    category:      highball
+    ingredients:
+        Dewar's Scotch: 1

@@ -1,0 +1,25 @@
+{
+  "name": "bartech",
+  "version": "1.0.0",
+  "description": "Wealth of knowledge container for bartending, specifically drinks and alcohol information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaymasterJ/bartechner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaymasterJ/bartechner/issues"
+  },
+  "homepage": "https://github.com/ClaymasterJ/bartechner#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "vuejs": "^3.0.1",
+    "webpack": "^4.41.2"
+  }
+}
