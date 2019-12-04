@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 flask = "*"
 sqlalchemy = "*"
+flask-makotemplates = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,3 +1,18 @@
+# python
 __pycache__/
-node_modules/
+
+# dependencies
+node_modules
+
+# production
+build
+
+# misc
+.DS_Store
 .ropeproject/
+
+npm-debug.log
+yarn-error.log
+yarn.lock
+.yarnclean
+.vscode
