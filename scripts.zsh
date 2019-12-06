@@ -11,4 +11,5 @@ function runpython() {
 
 # pause
 # runpython
-tmux new-session  'webpack ' ';' split-window 'export FLASK_APP=__main__.py:app && pipenv run python -m flask run || ipython -i' ';'
+tmux new-session  'webpack ' ';' split-window 'pipenv run ipython __main__.py -i' ';'
+# tmux new-session  'webpack ' ';' split-window 'export FLASK_APP=__main__:app && pipenv run python -m flask run || ipython -i' ';'

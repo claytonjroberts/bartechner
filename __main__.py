@@ -1,4 +1,6 @@
-from bartech.web.app import App
+from bartech.web import AppWeb
 
-print("hello!")
-app = App("main")
+
+if __name__ == "__main__":
+    app = AppWeb()
+    app.serve()

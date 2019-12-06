@@ -12,7 +12,6 @@ from threading import Lock, RLock, Thread
 from typing import List
 
 import colorama
-import urwid
 from colorama import Back, Fore, Style
 
 from . import helpers
